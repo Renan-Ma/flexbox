@@ -1,0 +1,59 @@
+/* NEWSLETTER */
+
+.newsletter {
+  background: #f7f7f7;
+  padding: 40px calc((100% - 960px)/2);/*para o background ficar de ponta a ponta da pagina e o conteudo acompanhar o max-width*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-info {
+  flex: 1 1 260px;
+  margin: 0 10px;
+}
+
+.newsletter-info h1 {
+  font-size: 2em;
+  color: #a4a4a4;
+}
+
+.newsletter-info p {
+  font-size: 1em;
+  font-style: italic;
+  max-width: 260px;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
+
+.newsletter-form {
+  flex: 3 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  flex: 3 1 260px;
+  font-size: 1em;
+  color: #7c7c7c;
+  font-style: italic;
+  font-family: 'Nunito', Helvetica, sans-serif;
+  border:  1px solid #2c70ff;
+  background: transparent;
+  padding: 3px;
+  
+}
+
+.newsletter-form button{
+  font-family: 'Nunito', Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #2c70ff;
+  color: white;
+  /* margin-top: 5px; */
+  cursor: pointer;
+  border: 0px;
+  padding: 5px 10px;
+}

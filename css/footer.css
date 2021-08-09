@@ -1,0 +1,14 @@
+/* FOOTER */
+
+.footer {
+  display: flex;
+  align-items: center;
+  background: #2c70ff;
+  height: 30px;
+}
+
+.footer p {
+  flex: 1;
+  color: #122ab2;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+/* INTRODUÇÃO */
+
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto; /*para alinhar ao centro de acordo com o max-width que foi passado*/
+  padding: 60px 5px;
+}
